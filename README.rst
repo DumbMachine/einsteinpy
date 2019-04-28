@@ -55,13 +55,10 @@
 
 |circleci| |travisci| |appveyor| |codecov| |codeclimate|
 
-EinsteinPy is an open source pure Python package dedicated to problems arising in 
-General Relativity and relativistic physics, such as goedesics calculation for vacuum 
-solutions for Einstein's field equations, calculation of various quantities in these 
-geometries like Schwarzschild Radius and event horizon. The library also has functions 
-for Symbolic calculations in GR like Christoffel Symbols and much more is planned. 
-The library aims to solve Einstein's field equations for arbitarily complicated 
-matter distribution as one of the main goals. 
+EinsteinPy is an open source pure Python package dedicated to problems arising in General Relativity and relativistic physics, such as goedesics calculation for vacuum solutions for Einstein's field equations, calculation of various quantities in these geometries like Schwarzschild Radius and the event horizon.
+
+It aims to solve Einstein's field equations for arbitrarily complicated matter distribution as one of the main goals. 
+The library also has functions for Symbolic calculations in GR like Christoffel Symbols and much more is planned. 
 It is released under the MIT license.
 
 Documentation
@@ -84,7 +81,7 @@ Examples
 
 |mybinder|
 
-In the examples directory you can find several Jupyter notebooks with specific
+In the examples directory, you can find several Jupyter notebooks with specific
 applications of einsteinpy. You can consider theses Jupyter Notebooks as tutorials for einsteinpy.
 You can launch a cloud Jupyter server using `binder`_ to edit
 the notebooks without installing anything. Try it out!
@@ -98,10 +95,10 @@ Requirements
 
 EinsteinPy requires the following Python packages:
 
-* NumPy, for basic numerical routines
-* Astropy, for physical units and time handling
-* numba (optional), for accelerating the code
-* matplotlib, for geodesics plotting and visualisations.
+* NumPy, for basic numerical routines.
+* Astropy, for physical units and time handling.
+* Numba (optional), for accelerating the code.
+* Matplotlib, for geodesics plotting and visualizations.
 * SciPy, for solving ordinary differential equations.
 * SymPy (optional), for symbolic calculations related to GR.
 
@@ -236,7 +233,7 @@ the project.
 Inspiration
 -----------
 
-The whole documentation, and code structure is shamelessly inspired by `poliastro`_ . We really thank the developers to
-help us acheive this.
+The whole documentation and code structure is shamelessly inspired by `poliastro`_ . We really thank the developers to
+help us achieve this.
 
 .. _`poliastro`: https://docs.poliastro.space/
